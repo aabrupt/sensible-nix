@@ -25,6 +25,8 @@
     ./pass
     ./direnv
     ./zoxide
+    ./starship
+    ./fastfetch
 
     # system
     ./wsl

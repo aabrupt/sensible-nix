@@ -5,4 +5,5 @@ _final: prev: {
   hyprkool-plugin = prev.callPackage ./hyprkool-plugin.nix {};
   zen-browser = prev.callPackage ./zen-browser {};
   vimix-hyprcursor = prev.callPackage ./vimix-hyprcursor.nix {};
+  sddm-glassy = prev.callPackage ./sddm-glassy {};
 }

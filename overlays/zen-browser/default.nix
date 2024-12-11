@@ -57,12 +57,12 @@
     ]);
 in
   pkgs.stdenv.mkDerivation rec {
-    version = "1.0.1-a.9";
+    version = "1.0.2-b.0";
     pname = "zen-browser";
 
     src = builtins.fetchTarball {
       url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
-      sha256 = "sha256:1f4ym15gmwwxmgpwsl09a2rq1cwgybn0f715pj2icn2kmliasdkn";
+      sha256 = "sha256:067m7g48nfa366ajn3flphnwkx8msc034r6px8ml66mbj7awjw4x";
     };
 
     desktopSrc = ./.;

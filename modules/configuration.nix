@@ -138,6 +138,11 @@
       enable = true;
       powerOnBoot = true;
       hsphfpd.enable = true;
+      settings = {
+        General = {
+          MultiProfile = "multiple";
+        };
+      };
     };
     graphics = lib.mkMerge [
       {
